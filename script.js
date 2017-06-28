@@ -11,7 +11,7 @@ $(document).ready(function(){
             data: {
                 maxResults: 10,
                 type: 'video',
-                q: 'dog',
+                q: 'dog'
             },
             success: function(result) {
                 console.log('AJAX Success function called, with the following result:', result);
